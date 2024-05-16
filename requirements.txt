@@ -1,0 +1,5 @@
+django 
+ipykernel
+djangorestframework
+shortuuid
+bitrix24-rest
