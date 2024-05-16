@@ -3,3 +3,4 @@ ipykernel
 djangorestframework
 shortuuid
 bitrix24-rest
+python-dotenv

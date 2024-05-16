@@ -1,8 +1,7 @@
 from django.urls import path
-from .views import CreatePromo, ActivatePromo, CheckPromo
+from .views import createPromo, activatePromo
 urlpatterns = [
-    path('create', CreatePromo.as_view()), 
-    path('activate', ActivatePromo.as_view()), 
-    path('check/', CheckPromo.as_view()), 
+    path('create', createPromo), 
+    path('activate', activatePromo)
 ]
 

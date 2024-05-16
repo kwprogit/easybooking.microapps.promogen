@@ -1,3 +1,9 @@
+import os 
+import dotenv
+
+dotenv.load_dotenv('.env-sample')
+dotenv.load_dotenv('.env')
+
 """
 Django settings for config project.
 
