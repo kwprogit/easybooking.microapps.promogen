@@ -29,6 +29,7 @@ ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = [
     "https://tidy-haddock-oddly.ngrok-free.app", 
     'https://easybooking.bitrix24.ru',
+    'https://kwutzee.pythonanywhere.com'
 ]
 
 # Application definition
@@ -120,6 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
