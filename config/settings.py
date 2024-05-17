@@ -1,9 +1,11 @@
 import os 
 import dotenv
 
-dotenv.load_dotenv('.env-sample')
 dotenv.load_dotenv('.env')
+dotenv.load_dotenv('.env-sample')
 
+print('===========')
+print(os.getenv('BITRIX24_URLKEY'))
 """
 Django settings for config project.
 
