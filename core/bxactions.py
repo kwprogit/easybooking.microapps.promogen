@@ -1,6 +1,6 @@
 import os 
 from bitrix24 import Bitrix24
-bxurl = 'https://easybooking.bitrix24.ru/rest/31387/ha6dao4g69uqbr80/'
+bxurl = 'https://easybooking.bitrix24.ru/rest/31387/ha6dao4g69uqbr80'
 print(bxurl)
 bx = Bitrix24(bxurl)
 
