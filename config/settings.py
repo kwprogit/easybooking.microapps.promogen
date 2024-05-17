@@ -1,8 +1,9 @@
 import os 
-import dotenv
+from dotenv import load_dotenv
 
-dotenv.load_dotenv('.env')
+load_dotenv()
 print('server initializing')
+print(os.getenv('BITRIX24_URLKEY'))
 
 """
 Django settings for config project.
