@@ -2,7 +2,7 @@ import os
 import dotenv
 
 dotenv.load_dotenv('.env')
-
+print('server initializing')
 
 """
 Django settings for config project.
