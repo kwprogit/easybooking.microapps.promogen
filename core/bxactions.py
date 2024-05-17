@@ -1,7 +1,7 @@
 import os 
 from bitrix24 import Bitrix24
-bxurl = 'https://easybooking.bitrix24.ru/rest/31387/r1w45vm7f5bei0k2'
-print(bxurl)
+bxurl = os.getenv('BITRIX24_URLKEY')
+
 bx = Bitrix24(bxurl)
 
 
